@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(10, 10, 107);
+}
+body{
+    font-family: 'Viner Hand ITC', sans-serif;
+    color:white;
+}
+h1{
+    text-align: center;
+    border: solid black;
+}
+h3.a{
+    text-align: left;
+    border: solid black;
+}
+h3.b{
+    text-align: center;
+    float: right;
+}
+h3.c{
+    text-align: right;
+}
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+    background-color: rgb(10, 10, 107);
+    display: block;
+    font-size: 20px;
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    border: solid black;
+ }
+ 
+ nav.horizontal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+ }
+    
+ nav.horizontal a:link, nav.horizontal:visited {
+    color: rgb(255, 255, 255);
+ }
+ 
+ nav.horizontal a:hover, nav.horizontal:active {
+    background-color: rgb(255, 255, 255);}
